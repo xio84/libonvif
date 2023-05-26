@@ -18,7 +18,7 @@
 #******************************************************************************/
 
 import sys
-from PyQt6.QtWidgets import QApplication
+from PyQt5.QtWidgets import QApplication
 from gui import MainWindow
 
 clear_settings = False

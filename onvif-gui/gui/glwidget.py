@@ -17,9 +17,9 @@
 #
 #*********************************************************************/
 
-from PyQt6.QtOpenGLWidgets import QOpenGLWidget
-from PyQt6.QtGui import QPainter, QImage
-from PyQt6.QtCore import QRect, QSize
+from PyQt5.QtOpenGLWidgets import QOpenGLWidget
+from PyQt5.QtGui import QPainter, QImage
+from PyQt5.QtCore import QRect, QSize
 import numpy as np
 
 class GLWidget(QOpenGLWidget):

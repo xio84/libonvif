@@ -17,8 +17,8 @@
 #
 #*********************************************************************/
 
-from PyQt6.QtWidgets import QDialogButtonBox, QLineEdit, QGridLayout, QDialog, QLabel
-from PyQt6.QtCore import Qt
+from PyQt5.QtWidgets import QDialogButtonBox, QLineEdit, QGridLayout, QDialog, QLabel
+from PyQt5.QtCore import Qt
 
 class LoginDialog(QDialog):
     def __init__(self, p):

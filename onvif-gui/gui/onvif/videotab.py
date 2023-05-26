@@ -17,9 +17,9 @@
 #
 #*********************************************************************/
 
-from PyQt6.QtWidgets import QComboBox, QLineEdit, QSpinBox, \
+from PyQt5.QtWidgets import QComboBox, QLineEdit, QSpinBox, \
 QGridLayout, QWidget, QLabel
-from PyQt6.QtCore import Qt
+from PyQt5.QtCore import Qt
 
 class SpinBox(QSpinBox):
     def __init__(self, qle):

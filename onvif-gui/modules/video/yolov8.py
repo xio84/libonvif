@@ -25,8 +25,8 @@ try:
     from loguru import logger
 
     from gui.components import ComboSelector, FileSelector, LabelSelector, ThresholdSlider
-    from PyQt6.QtWidgets import QWidget, QGridLayout, QLabel, QCheckBox, QMessageBox
-    from PyQt6.QtCore import Qt
+    from PyQt5.QtWidgets import QWidget, QGridLayout, QLabel, QCheckBox, QMessageBox
+    from PyQt5.QtCore import Qt
 
     import torch
     from ultralytics import YOLO

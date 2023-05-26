@@ -17,9 +17,9 @@
 #
 #*********************************************************************/
 
-from PyQt6.QtWidgets import QSlider, QLabel, QWidget, QGridLayout
-from PyQt6.QtCore import Qt, QPoint
-from PyQt6.QtGui import QPainter
+from PyQt5.QtWidgets import QSlider, QLabel, QWidget, QGridLayout
+from PyQt5.QtCore import Qt, QPoint
+from PyQt5.QtGui import QPainter
 
 class Slider(QSlider):
     def __init__(self, o, P):

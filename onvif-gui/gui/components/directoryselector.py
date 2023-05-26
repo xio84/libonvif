@@ -17,9 +17,9 @@
 #
 #******************************************************************************/
 
-from PyQt6.QtWidgets import QWidget, QLineEdit, QPushButton, \
+from PyQt5.QtWidgets import QWidget, QLineEdit, QPushButton, \
     QLabel, QGridLayout, QFileDialog
-from PyQt6.QtCore import pyqtSignal, QObject
+from PyQt5.QtCore import pyqtSignal, QObject
 
 class DirectorySelectorSignals(QObject):
     dirChanged = pyqtSignal(str)

@@ -17,7 +17,7 @@
 #
 #*********************************************************************/
 import os
-from PyQt6.QtWidgets import QGridLayout, QWidget, QCheckBox, \
+from PyQt5.QtWidgets import QGridLayout, QWidget, QCheckBox, \
     QLabel, QComboBox, QVBoxLayout
 from gui.components import DirectorySelector
 

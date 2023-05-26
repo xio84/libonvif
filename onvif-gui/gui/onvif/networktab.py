@@ -17,9 +17,9 @@
 #
 #*********************************************************************/
 
-from PyQt6.QtWidgets import QCheckBox, QLineEdit, QGridLayout, QWidget, QLabel, QMessageBox
-from PyQt6.QtCore import QRegularExpression
-from PyQt6.QtGui import QRegularExpressionValidator
+from PyQt5.QtWidgets import QCheckBox, QLineEdit, QGridLayout, QWidget, QLabel, QMessageBox
+from PyQt5.QtCore import QRegularExpression
+from PyQt5.QtGui import QRegularExpressionValidator
 
 class NetworkTab(QWidget):
     def __init__(self, cp):

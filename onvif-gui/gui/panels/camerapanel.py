@@ -20,10 +20,10 @@
 import sys
 from time import sleep
 import datetime
-from PyQt6.QtWidgets import QPushButton, QGridLayout, QWidget, QSlider, \
+from PyQt5.QtWidgets import QPushButton, QGridLayout, QWidget, QSlider, \
 QListWidget, QTabWidget, QMessageBox
-from PyQt6.QtGui import QIcon
-from PyQt6.QtCore import Qt, pyqtSignal, QObject, QSettings, QTimer
+from PyQt5.QtGui import QIcon
+from PyQt5.QtCore import Qt, pyqtSignal, QObject, QSettings, QTimer
 from gui.onvif import AdminTab, NetworkTab, ImageTab, VideoTab, PTZTab, LoginDialog
 
 sys.path.append("../build/libonvif")

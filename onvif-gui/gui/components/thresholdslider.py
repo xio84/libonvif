@@ -17,8 +17,8 @@
 #
 #*********************************************************************/
 
-from PyQt6.QtWidgets import QWidget, QSlider, QLabel, QGridLayout
-from PyQt6.QtCore import Qt
+from PyQt5.QtWidgets import QWidget, QSlider, QLabel, QGridLayout
+from PyQt5.QtCore import Qt
 
 class ThresholdSlider(QWidget):
     def __init__(self, mw, name, title, initValue):

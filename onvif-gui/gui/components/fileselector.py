@@ -17,7 +17,7 @@
 #
 #******************************************************************************/
 
-from PyQt6.QtWidgets import QWidget, QLineEdit, QPushButton, \
+from PyQt5.QtWidgets import QWidget, QLineEdit, QPushButton, \
     QLabel, QGridLayout, QFileDialog
 
 class FileSelector(QWidget):

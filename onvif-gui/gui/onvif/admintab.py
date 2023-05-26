@@ -18,9 +18,9 @@
 #*********************************************************************/
 
 import platform
-from PyQt6.QtWidgets import QLineEdit, QGridLayout, QWidget, \
+from PyQt5.QtWidgets import QLineEdit, QGridLayout, QWidget, \
 QCheckBox, QLabel, QPushButton, QMessageBox
-from PyQt6.QtCore import QProcess
+from PyQt5.QtCore import QProcess
 
 class AdminTab(QWidget):
     def __init__(self, cp):

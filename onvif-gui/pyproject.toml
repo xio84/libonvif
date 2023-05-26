@@ -37,7 +37,7 @@ classifiers = [
 ]
 
 dependencies = [ # Optional
-  "libonvif", "avio", "pyqt6", "numpy", "loguru", "opencv-python"
+  "libonvif", "avio", "pyqt5", "numpy", "loguru", "opencv-python"
 ]
 
 [project.urls]  # Optional

@@ -19,9 +19,9 @@
 
 import os
 import sys
-from PyQt6.QtWidgets import QMessageBox, QLineEdit, QSpinBox, \
+from PyQt5.QtWidgets import QMessageBox, QLineEdit, QSpinBox, \
 QGridLayout, QWidget, QCheckBox, QLabel, QComboBox
-from PyQt6.QtCore import Qt
+from PyQt5.QtCore import Qt
 
 sys.path.append("../build/libonvif")
 sys.path.append("../build/libonvif/Release")

@@ -17,10 +17,10 @@
 #
 #******************************************************************************/
 
-from PyQt6.QtWidgets import QPushButton, QColorDialog, \
+from PyQt5.QtWidgets import QPushButton, QColorDialog, \
 QGridLayout, QWidget, QCheckBox, QLabel, QComboBox
-from PyQt6.QtCore import Qt
-from PyQt6.QtGui import QColor
+from PyQt5.QtCore import Qt
+from PyQt5.QtGui import QColor
 
 class LabelSelector(QWidget):
     def __init__(self, mw, name, index, labels=None):

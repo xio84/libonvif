@@ -17,8 +17,8 @@
 #
 #*********************************************************************/
 
-from PyQt6.QtWidgets import QGridLayout, QWidget, QSlider, QLabel
-from PyQt6.QtCore import Qt
+from PyQt5.QtWidgets import QGridLayout, QWidget, QSlider, QLabel
+from PyQt5.QtCore import Qt
 
 class ImageTab(QWidget):
     def __init__(self, cp):

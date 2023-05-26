@@ -19,7 +19,7 @@
 
 import numpy as np
 from loguru import logger
-from PyQt6.QtWidgets import QGridLayout, QWidget, QCheckBox, QLabel
+from PyQt5.QtWidgets import QGridLayout, QWidget, QCheckBox, QLabel
 
 MODULE_NAME = "sample"
 

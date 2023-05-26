@@ -17,7 +17,7 @@
 #
 #*********************************************************************/
 
-from PyQt6.QtWidgets import QPushButton, QGridLayout, QWidget, QCheckBox
+from PyQt5.QtWidgets import QPushButton, QGridLayout, QWidget, QCheckBox
 
 class PTZTab(QWidget):
     def __init__(self, cp):

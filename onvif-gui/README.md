@@ -73,7 +73,7 @@ SYNOPSIS
     
     The program requires the following modules:
 
-    pip install pyqt6 opencv-python numpy loguru
+    pip install PyQt5 opencv-python numpy loguru
     
 
     To run the program:

@@ -20,7 +20,7 @@
 import numpy as np
 import cv2
 from loguru import logger
-from PyQt6.QtWidgets import QGridLayout, QWidget, QCheckBox
+from PyQt5.QtWidgets import QGridLayout, QWidget, QCheckBox
 
 MODULE_NAME = "sample"
 

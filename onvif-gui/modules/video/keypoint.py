@@ -9,7 +9,7 @@ try:
     import sys
     from loguru import logger
     from pathlib import Path
-    from PyQt6.QtWidgets import QWidget, QGridLayout, QLabel, QMessageBox
+    from PyQt5.QtWidgets import QWidget, QGridLayout, QLabel, QMessageBox
     from gui.components import ThresholdSlider
 
     import torch

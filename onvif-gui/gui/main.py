@@ -23,10 +23,10 @@ import time
 import importlib.util
 import numpy as np
 from pathlib import Path
-from PyQt6.QtWidgets import QApplication, QMainWindow, QLabel, QSplitter, \
+from PyQt5.QtWidgets import QApplication, QMainWindow, QLabel, QSplitter, \
     QTabWidget, QMessageBox
-from PyQt6.QtCore import pyqtSignal, QObject, QSettings, QDir, QSize
-from PyQt6.QtGui import QIcon
+from PyQt5.QtCore import pyqtSignal, QObject, QSettings, QDir, QSize
+from PyQt5.QtGui import QIcon
 from gui.panels import CameraPanel, FilePanel, SettingsPanel, VideoPanel, AudioPanel
 from gui.glwidget import GLWidget
 from loguru import logger

@@ -22,8 +22,8 @@ try:
     import cv2
     import numpy as np
     from loguru import logger
-    from PyQt6.QtWidgets import QGridLayout, QWidget, QLabel, QMessageBox
-    from PyQt6.QtCore import Qt
+    from PyQt5.QtWidgets import QGridLayout, QWidget, QLabel, QMessageBox
+    from PyQt5.QtCore import Qt
     from gui.components.thresholdslider import ThresholdSlider
     from gui.components.labelselector import LabelSelector
 

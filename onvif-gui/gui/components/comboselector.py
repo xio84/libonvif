@@ -17,7 +17,7 @@
 #
 #******************************************************************************/
 
-from PyQt6.QtWidgets import QWidget, QLabel, QComboBox, QGridLayout
+from PyQt5.QtWidgets import QWidget, QLabel, QComboBox, QGridLayout
 
 class ComboSelector(QWidget):
     def __init__(self, mw, name, list, select, id=None):

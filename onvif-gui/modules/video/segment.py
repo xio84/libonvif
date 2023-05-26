@@ -8,8 +8,8 @@ try:
     import sys
     from loguru import logger
     from pathlib import Path
-    from PyQt6.QtWidgets import QWidget, QGridLayout, QLabel, QMessageBox
-    from PyQt6.QtCore import Qt
+    from PyQt5.QtWidgets import QWidget, QGridLayout, QLabel, QMessageBox
+    from PyQt5.QtCore import Qt
     from gui.components import ThresholdSlider, LabelSelector
 
     import torch
